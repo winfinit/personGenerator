@@ -69,7 +69,6 @@ exports.get = function(r) {
 }
 
 function randomDate(start, end) {
-    console.log(start, end);
     var start = start || new Date(1920,0,1);
     var end = end || new Date();
     var data = new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));

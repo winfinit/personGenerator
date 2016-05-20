@@ -1,0 +1,42 @@
+{
+  "name": "person-generator",
+  "version": "1.0.0",
+  "description": "Generate a person for testing purposes with \"real\" fake data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winfinit/personGenerator.git"
+  },
+  "dependencies": {
+    "moment": "2.13.0",
+    "sprintf": "0.1.5",
+    "ssn": "0.5.3",
+    "dlgen": "0.0.4"
+  },
+  "keywords": [
+    "name",
+    "generate",
+    "test",
+    "fake",
+    "data",
+    "mock",
+    "person",
+    "people",
+    "lastname",
+    "firstname",
+    "faker",
+    "social security",
+    "ssn",
+    "dl",
+    "drivers license"
+  ],
+  "author": "Roman Jurkov <winfinit@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/winfinit/personGenerator/issues"
+  },
+  "homepage": "https://github.com/winfinit/personGenerator#readme"
+}
