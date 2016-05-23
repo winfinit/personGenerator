@@ -10,6 +10,24 @@ utilizing real information, without using online APIs to
 create a person that can pass various validations in your
 code.
 
+This module is using census information from census.gov
+from 1990
+
+[census names](http://www.census.gov/topics/population/genealogy/data/1990_census/1990_census_namefiles.html)
+
+that contains 88799 last names, 4275 female names, and 1219 male names.
+
+Module implements generation of: 
+* First, Last, and Middle name
+* Date of birth
+* Gender
+* Phone numbers
+* Appointment data
+* Three unique identifiers
+* Social security (not random set of numbers)
+* Drivers license ID (utilizing real data)
+
+
 ## Installation
 
 ```
