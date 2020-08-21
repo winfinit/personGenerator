@@ -4,9 +4,9 @@ var moment = require('moment');
 var sprintf = require('sprintf').sprintf;
 var dlgen = require('dlgen');
 
-var female = fs.readFileSync('dist.female.first.txt').toString().split("\n");
-var male = fs.readFileSync('dist.male.first.txt').toString().split("\n");
-var last_name = fs.readFileSync('dist.all.last.txt').toString().split("\n");
+var female = fs.readFileSync(__dirname + '/dist.female.first.txt').toString().split("\n");
+var male = fs.readFileSync(__dirname + '/dist.male.first.txt').toString().split("\n");
+var last_name = fs.readFileSync(__dirname + '/dist.all.last.txt').toString().split("\n");
 
 exports.get = function(r) {
     var gender = [female, male];
